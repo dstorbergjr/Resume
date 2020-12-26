@@ -1,0 +1,16 @@
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h2 {
+  font-family: "Helvetica"
+}
+
+li {
+  margin-left: 20px;
+}
+
+.summary > p {
+  text-align: center;
+  color: rgba(0, 255, 0, 1);
+}
