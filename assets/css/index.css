@@ -1,0 +1,25 @@
+.details {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.statement > p {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+
+.align-center_to_left, .align-center_to_right {
+  text-align: center;
+}
+
+@media screen and (min-width: 550px) {
+  .align-center_to_left {
+    text-align: left;
+  }
+
+  .align-center_to_right {
+    text-align: right;
+  }
+}
+
