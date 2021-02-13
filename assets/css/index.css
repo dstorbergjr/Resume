@@ -1,12 +1,21 @@
-body {
+html {
   font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
+
+body {
+  color: #7A7A79;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #252525;
   font-family: 'Roboto Slab', serif;
 }
 
 h3, h4, h5, h6 {
+  /* Even though we have the color set on h3,h4,h5,h6 above
+     this setting will be overridden since this statement
+     comes after in the hierarchy */
   color: #007FAB
 }
 
@@ -21,9 +30,8 @@ li {
 }
 
 li::before {
-  font-size: 20px;
   content: "•";
-  color: black;
+  color: #007FAB;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
@@ -35,12 +43,7 @@ li::before {
 }
 
 .statement > p {
-  font-size: 1.2em;
   text-align: center;
-}
-
-.contact {
-  font-size: 1.2em;
 }
 
 .align-center_to_left, .align-center_to_right {
@@ -53,7 +56,14 @@ li::before {
 }
 
 .employment-date {
+  font-size: 1.1em;
+  position: relative;
+  top: 13px;
+}
 
+.company {
+  font-family: 'Montserrat', sans-serif;
+  color: #7A7A79;
 }
 
 .divider {
